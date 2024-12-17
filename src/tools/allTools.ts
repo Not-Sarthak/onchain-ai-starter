@@ -1,5 +1,3 @@
-import { registerBasenameTool } from "./coinbase-tools/baseNameTool.js";
-import { createAndFundWalletTool } from "./coinbase-tools/createAndFundWalletTool.js";
 import { deployErc20Tool } from "./deployERC20Tool.js";
 import { retrieveCastTool } from "./farcaster-tools/analyzeCastTool.js";
 import { getBalanceTool } from "./getBalance.js";
@@ -37,8 +35,4 @@ export const tools: Record<string, ToolConfig> = {
     // WRITE
     send_transaction: sendTransactionTool,
     deploy_erc20: deployErc20Tool,
-
-    // COINBASE TOOLS
-    create_and_fund_wallet: createAndFundWalletTool,
-    register_basename: registerBasenameTool, 
 }

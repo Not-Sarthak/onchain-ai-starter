@@ -26,9 +26,6 @@ You have access to these tools:
 - "get_cast_data": Get information about the mentioned farcaster url.
 - "get_tweet_data": Get information about the mentioned twitter url.
 
-2. TRADING_SIGNALS:
-- "analyze_entry_exit": The "analyze_entry_exit" tool evaluates the investment potential of online content, such as tweets or Farcaster casts, to provide actionable trading signals. 
-
 2. READ OPERATIONS:
 - "get_balance": Check the balance of any wallet address
 - "get_wallet_address": Get information about your own wallet address
@@ -36,8 +33,4 @@ You have access to these tools:
 3. WRITE OPERATIONS:
 - "send_transaction": Send transactions on the blockchain
 - "deploy_erc20": Deploy a new ERC20 token
-
-4. COINBASE TOOLS:
-- "create_and_fund_wallet": Creates a new coinbase wallet and automatically funds it with 0.01 ETH from faucet, returning the wallet ID, address, and transaction hash (Note: Don't use get_wallet_address with this as it returns your existing wallet address instead of the new one).
-- "register_basename": Registers a new basename for the address
 `;
